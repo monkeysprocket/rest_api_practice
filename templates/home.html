@@ -6,7 +6,12 @@
 </head>
 <body>
     <hi>
-        Hello, World!
+        Hello, People!
     </hi>
+    <ul>
+        {% for person in people %}
+        <li>{{ person.fname }} {{person.lname }}</li>
+        {% endfor %}
+    </ul>
 </body>
 </html>
