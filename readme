@@ -1,0 +1,5 @@
+Real Python flask tutorial
+https://realpython.com/flask-connexion-rest-api/
+
+Too much coupling, would be difficult/impossible to write tests for this format.
+Connexion framework looks interesting.
